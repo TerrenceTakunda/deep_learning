@@ -16,6 +16,12 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+        <nd4j.version>1.0.0-beta5</nd4j.version>
+        <dl4j.version>1.0.0-beta5</dl4j.version>
+        <datavec.version>1.0.0-beta5</datavec.version>
+        <arbiter.version>1.0.0-beta5</arbiter.version>
+        <rl4j.version>1.0.0-beta5</rl4j.version>
+        <nd4j.backend>nd4j-native-platform</nd4j.backend>
 	</properties>
 
 	<dependencies>
@@ -27,12 +33,46 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+        <dependency>
+            <groupId>org.nd4j</groupId>
+            <artifactId>${nd4j.backend}</artifactId>
+            <version>${nd4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.nd4j</groupId>
+            <artifactId>${nd4j.backend}</artifactId>
+            <version>${nd4j.version}</version>
+        </dependency>
+		<!-- Core DL4J functionality -->
+		<dependency>
+			<groupId>org.deeplearning4j</groupId>
+			<artifactId>deeplearning4j-nlp</artifactId>
+			<version>${dl4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.deeplearning4j</groupId>
+			<artifactId>deeplearning4j-zoo</artifactId>
+			<version>${dl4j.version}</version>
+		</dependency>
+		<!-- Used for downloading data -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.3.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.5</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
