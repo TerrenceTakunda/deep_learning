@@ -17,11 +17,11 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <java.version>1.8</java.version>
-        <nd4j.version>1.0.0-beta4</nd4j.version>
-        <dl4j.version>1.0.0-beta4</dl4j.version>
-        <datavec.version>1.0.0-beta4</datavec.version>
-        <arbiter.version>1.0.0-beta4</arbiter.version>
-        <rl4j.version>1.0.0-beta4</rl4j.version>
+        <nd4j.version>1.0.0-beta5</nd4j.version>
+        <dl4j.version>1.0.0-beta5</dl4j.version>
+        <datavec.version>1.0.0-beta5</datavec.version>
+        <arbiter.version>1.0.0-beta5</arbiter.version>
+        <rl4j.version>1.0.0-beta5</rl4j.version>
         <nd4j.backend>nd4j-native-platform</nd4j.backend>
         <myfaces.version>2.3.4</myfaces.version>
         <ocpsoft.version>3.4.2.Final</ocpsoft.version>
@@ -29,23 +29,6 @@
     </properties>
 
     <dependencies>
-        <!-- Java EE -->
-        <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-api</artifactId>
-            <version>${javaee.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-web-api</artifactId>
-            <version>${javaee.version}</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.primefaces/primefaces -->
-        <dependency>
-            <groupId>org.primefaces</groupId>
-            <artifactId>primefaces</artifactId>
-            <version>7.0</version>
-        </dependency>
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
