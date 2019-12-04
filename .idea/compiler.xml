@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="deep_learning" />
         <module name="mnist" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="deep_learning" options="-endorseddirs C:\Users\Terrence\IdeaProjects\deep_learning\target/endorsed" />
       <module name="mnist" options="-endorseddirs C:\Users\Terrence\IdeaProjects\mnist\target/endorsed" />
     </option>
   </component>
