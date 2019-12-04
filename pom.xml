@@ -22,9 +22,6 @@
         <arbiter.version>1.0.0-beta5</arbiter.version>
         <rl4j.version>1.0.0-beta5</rl4j.version>
         <nd4j.backend>nd4j-native-platform</nd4j.backend>
-        <myfaces.version>2.3.4</myfaces.version>
-        <ocpsoft.version>3.4.2.Final</ocpsoft.version>
-        <javaee.version>8.0.1</javaee.version>
     </properties>
 
     <dependencies>
