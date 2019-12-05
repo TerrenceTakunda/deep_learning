@@ -33,7 +33,6 @@ public class IrisDataSetClassification {
     private static Logger log = LoggerFactory.getLogger(IrisDataSetClassification.class);
     private static final String BASE_PATH = System.getProperty("user.dir") + "/src/main/resources";
 
-
     public static void main(String[] args) throws  Exception {
 
         //First: get the dataset using the record reader. CSVRecordReader handles loading/parsing

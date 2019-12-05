@@ -70,4 +70,7 @@ fabric.properties
 target/
 # All models binary files
 *.zip
+iris-model.zip
+mnist-model.zip
+animals-model.zip
 
